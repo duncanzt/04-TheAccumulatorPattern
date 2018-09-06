@@ -234,23 +234,23 @@ def run_test_count_sines_vs_cosines():
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
-    expected =1
-    answer = count_sines_vs_cosines(1)
+    expected =2
+    answer = count_sines_vs_cosines(2)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
-    expected =
-    answer = count_sines_vs_cosines()
+    expected =4
+    answer = count_sines_vs_cosines(3)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
-    expected =
-    answer = count_sines_vs_cosines()
+    expected =0
+    answer = count_sines_vs_cosines(0)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
-    expected =
-    answer = count_sines_vs_cosines()
+    expected =6
+    answer = count_sines_vs_cosines(5)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
@@ -287,7 +287,8 @@ def count_sines_vs_cosines(m):
     #   you must NOT use the 2 or 3-parameter versions
     #   of the RANGE expression, if you happen to know them.
     # ------------------------------------------------------------------
-
+    total=0
+    for k in range(-m,m)
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
